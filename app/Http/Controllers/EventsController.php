@@ -15,6 +15,7 @@ class EventsController extends BaseController
         return Event::all();
     }
 
+    
     /*
      Requirements:
     - maximum 2 sql queries
